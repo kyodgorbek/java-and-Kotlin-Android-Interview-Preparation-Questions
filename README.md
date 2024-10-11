@@ -67,4 +67,11 @@ What is the difference between an interface and an abstract class in Java?
 - **Example:**
  - var age = 30
 
+# 4. Java Memory Management
+# Question: 
+ How does Java handle memory management?
+# Answer:
 
+- Java uses Garbage Collection (GC) to automatically manage memory.
+- Unreferenced objects are removed from memory to prevent memory leaks.
+- Java divides memory into Heap (for object storage) and Stack (for references).
