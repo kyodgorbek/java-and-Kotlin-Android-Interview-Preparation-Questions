@@ -57,6 +57,14 @@ What is the difference between an interface and an abstract class in Java?
 - Can have both abstract and concrete methods.
 -  A class can only inherit from one abstract class, but can implement multiple interfaces.
 
+ # 3. Purpose of val and var in Kotlin
+ # Answer:
+ - val: Declares an immutable variable, equivalent to final in Java.
+- **Example:**
+ - val name = "John"
 
+- var: Declares a mutable variable that can be reassigned.
+- **Example:**
+ - var age = 30
 
 
