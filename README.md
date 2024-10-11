@@ -1,5 +1,6 @@
 #             Java and Kotlin Interview Questions and Answers
-# This repository contains common Java and Kotlin interview questions with detailed answers. These questions are tailored for developers preparing for technical interviews, particularly for Android development roles. Topics include OOP principles, memory management, multithreading, coroutines, and Kotlin-specific features
+# This repository contains common Java and Kotlin interview questions with detailed answers. 
+These questions are tailored for developers preparing for technical interviews, particularly for Android development roles. Topics include OOP principles, memory management, multithreading, coroutines, and Kotlin-specific features
 
  # Table of Contents 
 # 1.  Four Principles of OOP
@@ -75,3 +76,20 @@ What is the difference between an interface and an abstract class in Java?
 - Java uses Garbage Collection (GC) to automatically manage memory.
 - Unreferenced objects are removed from memory to prevent memory leaks.
 - Java divides memory into Heap (for object storage) and Stack (for references).
+
+ # 5. Kotlin Extension Functions
+# Question:
+What are Kotlin's extension functions?
+# Answer:
+Extension functions let you add functionality to existing classes without modifying their code.
+fun String.reverseText(): String {
+    return this.reversed()
+}
+
+val original = "Hello"
+println(original.reverseText()) // Output: olleH
+
+  
+
+
+  
