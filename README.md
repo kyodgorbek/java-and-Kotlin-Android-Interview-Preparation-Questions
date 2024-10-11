@@ -162,3 +162,18 @@ val deferred = async {
 }
 println(deferred.await()) // Prints "Hello"
 ```
+# 11. Purpose of suspend Function in Kotlin
+# Question: 
+What is the purpose of the suspend function in Kotlin?
+# Answer:
+- A suspend function can be paused and resumed without blocking the thread.
+- It’s used in coroutines for tasks like network requests.
+  
+```kotlin
+suspend fun fetchData() {
+    delay(1000)
+    println("Data fetched")
+}
+```
+
+  
