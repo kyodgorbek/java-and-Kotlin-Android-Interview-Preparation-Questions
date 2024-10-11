@@ -100,6 +100,13 @@ What is the difference between synchronous and asynchronous programming in Java 
 -  Allows other operations to execute while waiting for a task to complete.
 - In Kotlin, coroutines simplify asynchronous programming compared to Java’s threading model.
   
+# 7. Kotlin Null Safety
+# Answer:
 
+- Kotlin enforces null safety by default, preventing NullPointerException. 
+- Variables are non-nullable unless explicitly marked with a ? (e.g., String?).
+
+val name: String? = null
+println(name?.length) // Safe call
 
   
