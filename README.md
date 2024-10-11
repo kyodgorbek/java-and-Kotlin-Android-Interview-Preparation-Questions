@@ -42,6 +42,8 @@ What is the difference between an interface and an abstract class in Java?
 # Answer:
 
  - **Interface:**
+ - All methods are abstract by default (Java 8+ allows default methods).
+ - Can be implemented by multiple classes (supports multiple inheritance).
    
 
 
