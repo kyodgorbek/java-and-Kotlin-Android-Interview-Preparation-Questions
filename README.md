@@ -90,6 +90,15 @@ fun String.reverseText(): String {
 val original = "Hello"
 println(original.reverseText()) // Output: olleH
 
+# 6. Synchronous vs Asynchronous Programming
+# Question: 
+What is the difference between synchronous and asynchronous programming in Java and Kotlin?
+# Answer:
+-**Synchronous Programming:**
+- Code runs in sequence, blocking further execution until the current task finishes.
+- **Asynchronous Programming:**
+-  Allows other operations to execute while waiting for a task to complete.
+- In Kotlin, coroutines simplify asynchronous programming compared to Java’s threading model.
   
 
 
