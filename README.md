@@ -25,8 +25,10 @@ The four principles of Object-Oriented Programming (OOP) are:
 - Encapsulation: Hiding internal states and behaviors, only exposing a public interface.
 Example: Private variables with public getters/setters.
 
-- Abstraction: Simplifying complex systems by modeling classes relevant to the problem.
-Example: Payment method interface with implementations like CreditCard, PayPal.
+- Abstraction:
+- Simplifying complex systems by modeling classes relevant to the problem.
+- **Example:**
+-  Payment method interface with implementations like CreditCard, PayPal.
 
 - Inheritance: Creating new classes by inheriting properties from existing ones.
 Example: Dog inherits from Animal.
