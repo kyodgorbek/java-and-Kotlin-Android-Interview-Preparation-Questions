@@ -94,7 +94,7 @@ println(original.reverseText()) // Output: olleH
 # Question: 
 What is the difference between synchronous and asynchronous programming in Java and Kotlin?
 # Answer:
--**Synchronous Programming:**
+- **Synchronous Programming:**
 - Code runs in sequence, blocking further execution until the current task finishes.
 - **Asynchronous Programming:**
 -  Allows other operations to execute while waiting for a task to complete.
