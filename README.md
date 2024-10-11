@@ -48,7 +48,8 @@ What is the difference between an interface and an abstract class in Java?
  - Can be implemented by multiple classes (supports multiple inheritance).
 
 - **Abstract Class**
-Can have both abstract and concrete methods. A class can only inherit from one abstract class, but can implement multiple interfaces.
+- Can have both abstract and concrete methods.
+-  A class can only inherit from one abstract class, but can implement multiple interfaces.
 
 
 
