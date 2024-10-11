@@ -1,5 +1,5 @@
-- Java and Kotlin Interview Questions and Answers
-- This repository contains common Java and Kotlin interview questions with detailed answers. These questions are tailored for developers preparing for technical interviews, particularly for Android development roles. Topics include OOP principles, memory management, multithreading, coroutines, and Kotlin-specific features
+#             Java and Kotlin Interview Questions and Answers
+# This repository contains common Java and Kotlin interview questions with detailed answers. These questions are tailored for developers preparing for technical interviews, particularly for Android development roles. Topics include OOP principles, memory management, multithreading, coroutines, and Kotlin-specific features
 
  # Table of Contents 
 1. Four Principles of OOP
