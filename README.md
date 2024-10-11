@@ -1,7 +1,7 @@
 - Java and Kotlin Interview Questions and Answers
 - This repository contains common Java and Kotlin interview questions with detailed answers. These questions are tailored for developers preparing for technical interviews, particularly for Android development roles. Topics include OOP principles, memory management, multithreading, coroutines, and Kotlin-specific features
 
- Table of Contents
+** Table of Contents **
 1. Four Principles of OOP
 2. Difference Between an Interface and an Abstract Class in Java
 3. Purpose of val and var in Kotlin
