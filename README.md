@@ -94,42 +94,32 @@ println(original.reverseText()) // Output: olleH
 
 
 # 6. Synchronous vs Asynchronous Programming
-# Question: 
-What is the difference between synchronous and asynchronous programming in Java and Kotlin?
-# Answer:
-- **Synchronous Programming:**
-- Code runs in sequence, blocking further execution until the current task finishes.
-- **Asynchronous Programming:**
--  Allows other operations to execute while waiting for a task to complete.
-- In Kotlin, coroutines simplify asynchronous programming compared to Java’s threading model.
-  
-# 7. Kotlin Null Safety
-# Question:
-How does Kotlin ensure null safety?
-# Answer:
 
-- Kotlin enforces null safety by default, preventing NullPointerException. 
-- Variables are non-nullable unless explicitly marked with a ? (e.g., String?).
+## Question:
+What is the difference between synchronous and asynchronous programming in Java and Kotlin?
+
+## Answer:
+- **Synchronous Programming:**
+  - Code runs in sequence, blocking further execution until the current task finishes.
+  
+- **Asynchronous Programming:**
+  - Allows other operations to execute while waiting for a task to complete.
+  - In Kotlin, coroutines simplify asynchronous programming compared to Java’s threading model.
+
+---
+
+# 7. Kotlin Null Safety
+
+## Question:
+How does Kotlin ensure null safety?
+
+## Answer:
+- Kotlin enforces null safety by default, preventing `NullPointerException`.
+- Variables are non-nullable unless explicitly marked with a `?` (e.g., `String?`).
+
 ```kotlin
 val name: String? = null
 println(name?.length) // Safe call
 
-
-# 8. What is a Coroutine in Kotlin
-# Question:
-What is a coroutine in Kotlin?
-# Answer:
-- A coroutine is Kotlin's lightweight thread for asynchronous programming.
--  They can suspend and resume execution without blocking the main thread.
-```kotlin
-fun main() = runBlocking {
-    val job = launch {
-        // Background task
-    }
-    val result = async {
-        "Hello, Coroutines!"
-    }
-    println(result.await())
-}
 
 
