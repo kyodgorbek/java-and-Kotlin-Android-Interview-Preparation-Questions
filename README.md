@@ -87,17 +87,16 @@ Extension functions let you add functionality to existing classes without modify
 fun String.reverseText(): String {
     return this.reversed()
 }
-
 val original = "Hello"
 println(original.reverseText()) // Output: olleH
 
 
 # 6. Synchronous vs Asynchronous Programming
 
-## Question:
+# Question:
 What is the difference between synchronous and asynchronous programming in Java and Kotlin?
 
-## Answer:
+# Answer:
 - **Synchronous Programming:**
   - Code runs in sequence, blocking further execution until the current task finishes.
   
