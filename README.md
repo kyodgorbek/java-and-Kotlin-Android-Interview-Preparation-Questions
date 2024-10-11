@@ -147,3 +147,9 @@ class MyTask implements Runnable {
 Thread thread = new Thread(new MyTask());
 thread.start();
 ```
+# 10. Difference Between launch and async in Kotlin Coroutines
+# Question:
+What is the difference between launch and async in Kotlin Coroutines?
+# Answer:
+- launch: Starts a coroutine that does not return a result.
+- async: Starts a coroutine that returns a Deferred result, which can be accessed using await().
