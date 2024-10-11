@@ -35,4 +35,13 @@ Example: Dog inherits from Animal.
 Example: A method can accept both Circle and Rectangle as they implement Shape.
 
 
+# 2. Difference Between an Interface and an Abstract Class in Java
+# Question:
+What is the difference between an interface and an abstract class in Java?
+
+# Answer:
+
+# - Interface:
+
+
 
