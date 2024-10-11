@@ -105,7 +105,6 @@ What is the difference between synchronous and asynchronous programming in Java 
   - In Kotlin, coroutines simplify asynchronous programming compared to Java’s threading model.
 
 
-
 # 7. Kotlin Null Safety
 
 ## Question:
@@ -115,9 +114,17 @@ How does Kotlin ensure null safety?
 - Kotlin enforces null safety by default, preventing `NullPointerException`.
 - Variables are non-nullable unless explicitly marked with a `?` (e.g., `String?`).
 
-```kotlin
+
 val name: String? = null
 println(name?.length) // Safe call
 
+
+## 8. What is a Coroutine in Kotlin
+## Question:
+What is a coroutine in Kotlin?
+
+## Answer:
+- A coroutine is Kotlin's lightweight thread for asynchronous programming.
+- They can suspend and resume execution without blocking the main thread.
 
 
