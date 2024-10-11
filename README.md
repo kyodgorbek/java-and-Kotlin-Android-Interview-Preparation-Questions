@@ -70,7 +70,7 @@ What is the difference between an interface and an abstract class in Java?
 - **Example:**
  ``` kotlin
   var age = 30
-    ```
+  ```
 
 # 4. Java Memory Management
 # Question: 
@@ -118,10 +118,10 @@ How does Kotlin ensure null safety?
 - Kotlin enforces null safety by default, preventing `NullPointerException`.
 - Variables are non-nullable unless explicitly marked with a `?` (e.g., `String?`).
 
-
+ ```kotlin
 val name: String? = null
 println(name?.length) // Safe call
-
+ ```
 
 ## 8. What is a Coroutine in Kotlin
 ## Question:
