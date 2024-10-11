@@ -117,5 +117,15 @@ What is a coroutine in Kotlin?
 # Answer:
 - A coroutine is Kotlin's lightweight thread for asynchronous programming.
 -  They can suspend and resume execution without blocking the main thread.
+```kotlin
+fun main() = runBlocking {
+    val job = launch {
+        // Background task
+    }
+    val result = async {
+        "Hello, Coroutines!"
+    }
+    println(result.await())
+}
 
-  
+
