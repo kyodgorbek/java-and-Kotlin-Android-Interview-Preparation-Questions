@@ -84,7 +84,6 @@ What are Kotlin's extension functions?
 # Answer:
 Extension functions let you add functionality to existing classes without modifying their code.
 ```kotlin
-
 fun String.reverseText(): String {
     return this.reversed()
 }
@@ -106,7 +105,7 @@ What is the difference between synchronous and asynchronous programming in Java 
   - Allows other operations to execute while waiting for a task to complete.
   - In Kotlin, coroutines simplify asynchronous programming compared to Java’s threading model.
 
----
+
 
 # 7. Kotlin Null Safety
 
