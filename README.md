@@ -90,7 +90,6 @@ fun String.reverseText(): String {
 }
 val original = "Hello"
 println(original.reverseText()) // Output: olleH
----
 
 # 6. Synchronous vs Asynchronous Programming
 
