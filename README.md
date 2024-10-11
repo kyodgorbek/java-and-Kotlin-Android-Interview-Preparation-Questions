@@ -62,6 +62,7 @@ What is the difference between an interface and an abstract class in Java?
  # Answer:
  - val: Declares an immutable variable, equivalent to final in Java.
 - **Example:**
+  
  - val name = "John"
 
 - var: Declares a mutable variable that can be reassigned.
@@ -82,6 +83,7 @@ What is the difference between an interface and an abstract class in Java?
 What are Kotlin's extension functions?
 # Answer:
 Extension functions let you add functionality to existing classes without modifying their code.
+```kotlin
 
 fun String.reverseText(): String {
     return this.reversed()
