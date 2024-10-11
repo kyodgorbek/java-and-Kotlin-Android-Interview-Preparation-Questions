@@ -176,4 +176,14 @@ suspend fun fetchData() {
 }
 ```
 
-  
+# 12. Kotlin and Java Interoperability
+# Question: 
+How does Kotlin handle interoperability with Java?
+# Answer:
+- Kotlin is fully interoperable with Java. Kotlin code can call 
+- Java code and vice versa.
+ ```kotlin
+  val list = ArrayList<String>() // Using Java's ArrayList
+list.add("Hello")
+```
+
