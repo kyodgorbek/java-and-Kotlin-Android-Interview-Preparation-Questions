@@ -82,6 +82,7 @@ What is the difference between an interface and an abstract class in Java?
 What are Kotlin's extension functions?
 # Answer:
 Extension functions let you add functionality to existing classes without modifying their code.
+
 fun String.reverseText(): String {
     return this.reversed()
 }
