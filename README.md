@@ -140,7 +140,7 @@ class MyTask implements Runnable {
         System.out.println("Task is running");
     }
 }
-```java
+
 Thread thread = new Thread(new MyTask());
 thread.start();
 ```
