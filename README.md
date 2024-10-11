@@ -91,7 +91,7 @@ fun String.reverseText(): String {
 val original = "Hello"
 println(original.reverseText()) // Output: olleH
 
-#6.Synchronous vs Asynchronous Programming
+# 6.Synchronous vs Asynchronous Programming
 
 # Question:
 What is the difference between synchronous and asynchronous programming in Java and Kotlin?
