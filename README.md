@@ -22,15 +22,17 @@ Question: What are the four principles of OOP?
 
 The four principles of Object-Oriented Programming (OOP) are:
 
-Encapsulation: Hiding internal states and behaviors, only exposing a public interface.
+- Encapsulation: Hiding internal states and behaviors, only exposing a public interface.
 Example: Private variables with public getters/setters.
 
-Abstraction: Simplifying complex systems by modeling classes relevant to the problem.
+- Abstraction: Simplifying complex systems by modeling classes relevant to the problem.
 Example: Payment method interface with implementations like CreditCard, PayPal.
 
-Inheritance: Creating new classes by inheriting properties from existing ones.
+- Inheritance: Creating new classes by inheriting properties from existing ones.
 Example: Dog inherits from Animal.
 
-Polymorphism: Allowing objects to be treated as instances of their parent class.
+- Polymorphism: Allowing objects to be treated as instances of their parent class.
 Example: A method can accept both Circle and Rectangle as they implement Shape.
+
+
 
