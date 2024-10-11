@@ -87,9 +87,10 @@ Extension functions let you add functionality to existing classes without modify
 fun String.reverseText(): String {
     return this.reversed()
 }
-```
+``` kotlin
 val original = "Hello"
 println(original.reverseText()) // Output: olleH
+```
 
 # 6.Synchronous vs Asynchronous Programming
 
@@ -139,3 +140,6 @@ class MyTask implements Runnable {
     }
 }
 ```java
+Thread thread = new Thread(new MyTask());
+thread.start();
+```
