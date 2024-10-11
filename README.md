@@ -133,7 +133,8 @@ What is a coroutine in Kotlin?
 How do you handle multithreading in Java?
 # Answer:
 - In Java, you can create a new thread by extending Thread or implementing Runnable.
-  ```java
+
+```java
 class MyTask implements Runnable {
     public void run() {
         System.out.println("Task is running");
