@@ -41,7 +41,7 @@ What is the difference between an interface and an abstract class in Java?
 
 # Answer:
 
- ** Interface: **
+ - ** Interface: **
    
 
 
