@@ -92,6 +92,7 @@ fun String.reverseText(): String {
 val original = "Hello"
 println(original.reverseText()) // Output: olleH
 
+
 # 6. Synchronous vs Asynchronous Programming
 # Question: 
 What is the difference between synchronous and asynchronous programming in Java and Kotlin?
@@ -109,9 +110,10 @@ How does Kotlin ensure null safety?
 
 - Kotlin enforces null safety by default, preventing NullPointerException. 
 - Variables are non-nullable unless explicitly marked with a ? (e.g., String?).
-
+```kotlin
 val name: String? = null
 println(name?.length) // Safe call
+
 
 # 8. What is a Coroutine in Kotlin
 # Question:
